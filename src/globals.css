@@ -1,0 +1,16 @@
+:root {
+    --black: #202020;
+    --grey: #636e72;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body, #root, .App {
+    height: 100%;
+  }
+  
