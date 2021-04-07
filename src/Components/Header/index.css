@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    background-color: var(--red);
+    height: 7%;
+    max-height: 7vh;
+    padding: 0 2%;
+}
+
+.header .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    color: white
+}
+
+.header .left .logo {
+    height: 80%;
+}
+
+.header.title {
+    font-size: 1.5rem;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
