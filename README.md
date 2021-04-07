@@ -20,8 +20,8 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 ## :camera: Imagens / Gifs
 <p aling="center" style="text-align:center">
-    <img src="https://res.cloudinary.com/dozoyzosn/image/upload/v1617837509/Marvel/screen-capture_11_diaj7i.gif" height="250">
-    <img src="https://res.cloudinary.com/dozoyzosn/image/upload/v1617836498/Marvel/card_zair6n.gif" height="250">
+    <img src="/docs/assets/panel.gif?raw=true" height="250">
+    <img src="/docs/assets/card.gif?raw=true" height="250">
     <br/>
     <img src="https://res.cloudinary.com/dozoyzosn/image/upload/v1617837909/Marvel/dark-1_sgsklg.png" height="250">
     <img src="https://res.cloudinary.com/dozoyzosn/image/upload/v1617837910/Marvel/light-1_hjjaoe.png" height="250">
