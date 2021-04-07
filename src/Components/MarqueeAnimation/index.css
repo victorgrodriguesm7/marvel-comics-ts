@@ -1,0 +1,28 @@
+.marquee-content {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    animation: scrolling 15s linear infinite;
+}
+
+.marquee-item {
+    flex-shrink: 0;
+}
+
+.marquee-item img {
+    height: 100%;
+    width: 33vw;
+}
+
+.shadow {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@keyframes scrolling {
+    100% {transform: translateX(-99vw)}
+}
