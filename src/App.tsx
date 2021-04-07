@@ -1,8 +1,12 @@
 import React from 'react';
+import ThemeProvider from './context/ThemeContext';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <ThemeProvider>
+      <Home/>
+    </ThemeProvider>
   );
 }
 
