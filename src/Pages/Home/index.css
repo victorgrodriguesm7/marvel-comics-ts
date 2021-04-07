@@ -1,0 +1,52 @@
+.home-content {
+    flex: 1;
+    background-color: var(--primary);
+}
+
+.slider {
+    position: relative;
+    height: 50vh;
+}
+
+.foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.foreground img {
+    position: absolute;
+    right: -10%;
+    bottom: -17%;
+}
+
+.foreground .welcome{
+    display: flex;
+    height: min-content;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.foreground .welcome hr {
+    border: none;
+    width: 5px;
+    border-radius: 5px;
+    background-color: var(--red);
+}
+
+.foreground .welcome h1 {
+    margin-left: 10px;
+    font-size: 4rem;
+    color: white;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
