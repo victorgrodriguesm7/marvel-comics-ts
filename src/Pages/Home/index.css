@@ -21,8 +21,9 @@
 
 .foreground img {
     position: absolute;
-    right: -10%;
-    bottom: -17%;
+    height: 45vmin;
+    right: -2vmin;
+    bottom: -2vmin;
 }
 
 .foreground .welcome{
