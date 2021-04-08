@@ -27,7 +27,7 @@ export function useComic(){
 
 export default function ComicProvider({ children }: ComicProviderProps) {
     const [selectedComic, setSelectedComic] = useState({} as Comic);
-    const [isModalOpen, setIsModalOpen] = useState(true);
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     function openModal(comic : Comic){
         setIsModalOpen(true);
