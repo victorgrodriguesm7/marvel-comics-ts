@@ -8,6 +8,7 @@ import './index.css';
 interface Comic {
     id: number;
     title: string;
+    description: string;
     creator?: string;
     thumbnail: string;
 }
@@ -29,6 +30,7 @@ export default function ComicsList() {
             comics.push({
                 id: comic.id,
                 title: comic.title,
+                description: comic.description,
                 creator: comic.creators.available ? comic.creators.items[0]["name"] : null,
                 thumbnail: `${comic.thumbnail.path}.${comic.thumbnail.extension}`
             } as Comic)
