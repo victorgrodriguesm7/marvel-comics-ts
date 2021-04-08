@@ -7,7 +7,7 @@
 
 # Marvel Comics TS
 
-Site de listagem de HQ's da Marvel escrito em React e Typescript com um design moderno.
+Site de listagem de HQ's da Marvel escrito em React e Typescript com um design moderno. Caso queira testar, o site está disponível [aqui](https://marvel-comics-ts.web.app/)
 
 ## :rocket: Feito com:
 
