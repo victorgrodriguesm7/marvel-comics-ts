@@ -5,11 +5,11 @@ import Home from './Pages/Home';
 
 function App() {
   return (
-    <ComicProvider>
-      <ThemeProvider>
+    <ThemeProvider>
+      <ComicProvider>
         <Home/>
-      </ThemeProvider>
-    </ComicProvider>
+      </ComicProvider>
+    </ThemeProvider>
   );
 }
 

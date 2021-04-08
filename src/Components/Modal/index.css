@@ -13,7 +13,7 @@
 .container {
     position: relative;
     display: flex;
-    background-color: #121212;
+    background-color: var(--primary);
     width: 100%;
     max-width: 650px;
     height: 80%;
@@ -61,5 +61,5 @@
 }
 
 .container .content .title .description {
-    margin: 0 auto;
+    margin: 2rem auto;
 }
